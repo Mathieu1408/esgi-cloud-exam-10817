@@ -26,4 +26,7 @@ Article.init(
   },
 )
 
-module.exports = Article
+module.exports = Article;
+
+Article.sync({ alter: true });
+
